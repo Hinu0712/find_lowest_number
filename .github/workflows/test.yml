@@ -19,7 +19,7 @@ jobs:
     - name: Run Test 1 - Multiple Numbers
       run: |
         python3 find_lowest_number.py test_data/test1_input.txt test_data/test1_output.txt
-        diff -b test_data/test1_output.txt test_data/test1_expected.txt
+        diff -B test_data/test1_output.txt test_data/test1_expected.txt
 
     - name: Run Test 2 - Single Number
       run: |
